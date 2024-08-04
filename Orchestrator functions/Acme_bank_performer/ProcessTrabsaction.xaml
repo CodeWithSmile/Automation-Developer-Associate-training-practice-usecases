@@ -1,0 +1,395 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="ProcessTrabsaction" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="644,1430" sap2010:WorkflowViewState.IdRef="ProcessTrabsaction_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="sequence" sap:VirtualizedContainerService.HintSize="654,1365" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="ui:QueueItem" Name="TransactionItem" />
+      <Variable x:TypeArguments="x:String" Name="Age" />
+      <Variable x:TypeArguments="x:String" Name="Email" />
+      <Variable x:TypeArguments="x:String" Name="Phone" />
+      <Variable x:TypeArguments="x:String" Name="CityStateZip" />
+      <Variable x:TypeArguments="x:String" Name="LastName" />
+      <Variable x:TypeArguments="x:String" Name="FirstName" />
+      <Variable x:TypeArguments="x:String" Name="NoOfDependents" />
+      <Variable x:TypeArguments="scg:IEnumerable(ui:QueueItem)" Name="QueueItems" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap2010:Annotation.AnnotationText="A Performer (Consumer) process that gets each queue item and enters the data in ACME Bank web page." DisplayName="ProcessTransactions" sap:VirtualizedContainerService.HintSize="592,1277" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:GetQueueItem ContinueOnError="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Get Transaction Item from ACMEBank queue" FolderPath="Queue demo" sap:VirtualizedContainerService.HintSize="530,183" sap2010:WorkflowViewState.IdRef="GetQueueItem_1" QueueType="Acme bank" TransactionItem="[TransactionItem]" />
+      <If Condition="[TransactionItem IsNot Nothing]" DisplayName="If TransactionItem..." sap:VirtualizedContainerService.HintSize="530,941" sap2010:WorkflowViewState.IdRef="If_1">
+        <If.Then>
+          <Sequence DisplayName="If data then process transactions" sap:VirtualizedContainerService.HintSize="496,582" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <TryCatch DisplayName="Try Catch to process transactions" sap:VirtualizedContainerService.HintSize="434,497" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+              <TryCatch.Try>
+                <Sequence DisplayName="Try to" sap:VirtualizedContainerService.HintSize="541,3235" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:MultipleAssign DisplayName="Assign values to each field in ACME Bank " sap:VirtualizedContainerService.HintSize="479,342" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+                    <ui:MultipleAssign.AssignOperations>
+                      <scg:List x:TypeArguments="ui:AssignOperation" Capacity="8">
+                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
+                          <ui:AssignOperation.To>
+                            <OutArgument x:TypeArguments="x:String">[FirstName]</OutArgument>
+                          </ui:AssignOperation.To>
+                          <ui:AssignOperation.Value>
+                            <InArgument x:TypeArguments="x:String">[TransactionItem.SpecificContent("in_FirstName").ToString]</InArgument>
+                          </ui:AssignOperation.Value>
+                        </ui:AssignOperation>
+                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
+                          <ui:AssignOperation.To>
+                            <OutArgument x:TypeArguments="x:String">[LastName]</OutArgument>
+                          </ui:AssignOperation.To>
+                          <ui:AssignOperation.Value>
+                            <InArgument x:TypeArguments="x:String">[TransactionItem.SpecificContent("in_LastName").ToString]</InArgument>
+                          </ui:AssignOperation.Value>
+                        </ui:AssignOperation>
+                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_3">
+                          <ui:AssignOperation.To>
+                            <OutArgument x:TypeArguments="x:String">[CityStateZip]</OutArgument>
+                          </ui:AssignOperation.To>
+                          <ui:AssignOperation.Value>
+                            <InArgument x:TypeArguments="x:String">[TransactionItem.SpecificContent("in_CityStateZip").ToString]</InArgument>
+                          </ui:AssignOperation.Value>
+                        </ui:AssignOperation>
+                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_4">
+                          <ui:AssignOperation.To>
+                            <OutArgument x:TypeArguments="x:String">[Phone]</OutArgument>
+                          </ui:AssignOperation.To>
+                          <ui:AssignOperation.Value>
+                            <InArgument x:TypeArguments="x:String">[TransactionItem.SpecificContent("in_Phone").ToString]</InArgument>
+                          </ui:AssignOperation.Value>
+                        </ui:AssignOperation>
+                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
+                          <ui:AssignOperation.To>
+                            <OutArgument x:TypeArguments="x:String">[Email]</OutArgument>
+                          </ui:AssignOperation.To>
+                          <ui:AssignOperation.Value>
+                            <InArgument x:TypeArguments="x:String">[TransactionItem.SpecificContent("in_Email").ToString]</InArgument>
+                          </ui:AssignOperation.Value>
+                        </ui:AssignOperation>
+                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_6">
+                          <ui:AssignOperation.To>
+                            <OutArgument x:TypeArguments="x:String">[Age]</OutArgument>
+                          </ui:AssignOperation.To>
+                          <ui:AssignOperation.Value>
+                            <InArgument x:TypeArguments="x:String">[TransactionItem.SpecificContent("in_Age").ToString]</InArgument>
+                          </ui:AssignOperation.Value>
+                        </ui:AssignOperation>
+                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_7">
+                          <ui:AssignOperation.To>
+                            <OutArgument x:TypeArguments="x:String">[NoOfDependents]</OutArgument>
+                          </ui:AssignOperation.To>
+                          <ui:AssignOperation.Value>
+                            <InArgument x:TypeArguments="x:String">[TransactionItem.SpecificContent("in_NoOfDependents").ToString]</InArgument>
+                          </ui:AssignOperation.Value>
+                        </ui:AssignOperation>
+                      </scg:List>
+                    </ui:MultipleAssign.AssignOperations>
+                  </ui:MultipleAssign>
+                  <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Edge: ACME System 1 - Add Account" sap:VirtualizedContainerService.HintSize="479,2594" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="d690479a-7f3e-489d-b426-6a06d00e0e66" Version="V1">
+                    <uix:NApplicationCard.Body>
+                      <ActivityAction x:TypeArguments="x:Object">
+                        <ActivityAction.Argument>
+                          <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                        </ActivityAction.Argument>
+                        <Sequence DisplayName="Add account details in ACME Bank" sap:VirtualizedContainerService.HintSize="416,2337" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'First Name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="Simulate" ScopeIdentifier="d690479a-7f3e-489d-b426-6a06d00e0e66" Text="[FirstName.ToString]">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/bank/account" CvElementArea="162, 367, 487, 38" CvType="InputBox" DesignTimeRectangle="164, 369, 485, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='firstname' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='firstname' tag='INPUT' type='text' class='form-control' aaname='' /&gt;" Guid="d1ba5bd3-d8d7-47ba-86cb-4db03dd281a8" InformativeScreenshot="60e530fc7afb350c902710ba2459cfe7.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Add Account' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                    <uix:Target CvTextArea="163, 347, 77, 13" CvTextArgument="First Name:" CvType="Text" DesignTimeRectangle="164, 344, 77, 20" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='First Name:' check:innerText='First Name:' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NTypeInto.Target>
+                          </uix:NTypeInto>
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Last Name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="d690479a-7f3e-489d-b426-6a06d00e0e66" Text="[LastName.ToString]">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/bank/account" CvElementArea="162, 441, 489, 38" CvType="InputBox" DesignTimeRectangle="164, 443, 485, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='lastname' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='lastname' tag='INPUT' type='text' class='form-control' aaname='' /&gt;" Guid="1b146c31-dc3d-42f6-a085-9139d6218ec4" InformativeScreenshot="e6e41a447829e49d361068ddab9c6d9d.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Add Account' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                    <uix:Target CvTextArea="163, 421, 76, 13" CvTextArgument="Last Name:" CvType="Text" DesignTimeRectangle="164, 418, 75, 20" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Last Name:' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Last Name:' tag='LABEL' type='' class='' check:innerText='Last Name:' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NTypeInto.Target>
+                          </uix:NTypeInto>
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'City, State, Zip'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="d690479a-7f3e-489d-b426-6a06d00e0e66" Text="[CityStateZip.ToString]">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/bank/account" CvElementArea="162, 515, 488, 38" CvType="InputBox" DesignTimeRectangle="164, 517, 485, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='city-state-zip' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='city-state-zip' tag='INPUT' type='text' class='form-control' aaname='' /&gt;" Guid="2f79284f-87c5-41f2-a7b0-ba46d3d6dc70" InformativeScreenshot="32fd40c61ab461246e80d5e50f2dc7aa.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Add Account' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                    <uix:Target CvTextArea="162, 495, 102, 16" CvTextArgument="City, State, Zip:" CvType="Text" DesignTimeRectangle="164, 492, 100, 20" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='City, State, Zip:' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='City, State, Zip:' tag='LABEL' type='' class='' check:innerText='City, State, Zip:' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NTypeInto.Target>
+                          </uix:NTypeInto>
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Phone'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="d690479a-7f3e-489d-b426-6a06d00e0e66" Text="[Phone.ToString]">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/bank/account" CvElementArea="161, 589, 488, 38" CvType="InputBox" DesignTimeRectangle="164, 591, 485, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='phone' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='phone' tag='INPUT' type='text' class='form-control' aaname='' /&gt;" Guid="fcd7fada-6a96-4530-8fe0-b582c352a664" InformativeScreenshot="7a1cd0e46efd86db33cc7bf0ac7ad072.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Add Account' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                    <uix:Target CvTextArea="162, 569, 49, 13" CvTextArgument="Phone:" CvType="Text" DesignTimeRectangle="164, 566, 47, 20" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Phone:' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Phone:' tag='LABEL' type='' class='' check:innerText='Phone:' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NTypeInto.Target>
+                          </uix:NTypeInto>
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Email'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="d690479a-7f3e-489d-b426-6a06d00e0e66" Text="[Email.ToString]">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/bank/account" CvElementArea="161, 663, 489, 38" CvType="InputBox" DesignTimeRectangle="164, 665, 485, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='email' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='email' tag='INPUT' type='text' class='form-control' aaname='' /&gt;" Guid="848110fe-467c-4ef2-9aa0-8b3bb9398b2e" InformativeScreenshot="61ec4df634fef5fc081c8c1f9cc1b2d1.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Add Account' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                    <uix:Target CvTextArea="162, 643, 43, 13" CvTextArgument="Email:" CvType="Text" DesignTimeRectangle="164, 640, 42, 20" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Email:' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Email:' tag='LABEL' type='' class='' check:innerText='Email:' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NTypeInto.Target>
+                          </uix:NTypeInto>
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Age'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="d690479a-7f3e-489d-b426-6a06d00e0e66" Text="[Age.ToString]">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/bank/account" CvElementArea="162, 443, 489, 38" CvType="InputBox" DesignTimeRectangle="164, 445, 485, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='age' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='age' tag='INPUT' type='text' class='form-control' aaname='' /&gt;" Guid="50202ed1-1cdf-4062-a410-fc7bd3725434" InformativeScreenshot="8eb47d1151bcfcda64b056cfdaf1c4a7.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Add Account' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                    <uix:Target CvTextArea="161, 423, 34, 16" CvTextArgument="Age:" CvType="Text" DesignTimeRectangle="164, 420, 31, 20" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Age:' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Age:' tag='LABEL' type='' class='' check:innerText='Age:' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NTypeInto.Target>
+                          </uix:NTypeInto>
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into 'Number of Dependents'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="d690479a-7f3e-489d-b426-6a06d00e0e66" Text="[NoOfDependents.ToString]">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/bank/account" CvElementArea="162, 517, 489, 38" CvType="InputBox" DesignTimeRectangle="164, 519, 485, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='dependents' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='dependents' tag='INPUT' type='text' class='form-control' aaname='' /&gt;" Guid="6331bea4-01c8-4319-84ab-b1d1c59862a6" InformativeScreenshot="0221cc6c11ee47b24ae353a7db154dd9.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Add Account' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                    <uix:Target CvTextArea="162, 497, 160, 16" CvTextArgument="Number of Dependents:" CvType="Text" DesignTimeRectangle="164, 494, 158, 20" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Number of Dependents:' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Number of Dependents:' tag='LABEL' type='' class='' check:innerText='Number of Dependents:' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NTypeInto.Target>
+                          </uix:NTypeInto>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Add Account'" sap:VirtualizedContainerService.HintSize="354,197" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d690479a-7f3e-489d-b426-6a06d00e0e66">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="https://acme-test.uipath.com/bank/account" CvElementArea="162, 566, 106, 37" CvTextArea="174, 578, 82, 13" CvTextArgument="Add Account" CvType="Button" DesignTimeRectangle="164, 568, 104, 34" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl id='buttonScoreCard' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl id='buttonScoreCard' tag='BUTTON' type='submit' class='btn btn-primary' aaname='Add Account' check:innerText='Add Account' /&gt;" Guid="029e97f0-4574-4505-ab53-9454dc9223a4" InformativeScreenshot="ab3c352cfafc21224db1b4c5b24c46d6.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='ACME System 1 - Add Account' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OK'" sap:VirtualizedContainerService.HintSize="354,197" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d690479a-7f3e-489d-b426-6a06d00e0e66" Version="V3">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable CvElementArea="812, 150, 67, 35" CvTextArea="835, 161, 19, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="813, 152, 64, 32" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='acme-test.uipath.com says' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='acme-test.uipath.com says' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' automationid='' check:fulltext='OK' /&gt;" Guid="b23c082f-1c7b-4683-8b97-da6502f73fef" InformativeScreenshot="17bbc4593a7c12d2557cf01fa29d8ea8.png" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='ACME System 1 - Add Account - Profile 1 - Microsoft​ Edge' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="354,50" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                            <ui:CommentOut.Body>
+                              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,265" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OK button'" sap:VirtualizedContainerService.HintSize="354,180" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d690479a-7f3e-489d-b426-6a06d00e0e66">
+                                  <uix:NClick.Target>
+                                    <uix:TargetAnchorable DesignTimeRectangle="1145, 227, 96, 48" DesignTimeScaleFactor="1.5" ElementType="Button" FullSelectorArgument="&lt;ctrl name='acme-test.uipath.com says' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='acme-test.uipath.com says' role='dialog' /&gt;&lt;ctrl name='OK' role='push button' automationid='' /&gt;" Guid="a5601b01-2c16-46de-8f34-bc1106caadf4" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGQAAAA0CAYAAAB8bJ2jAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAKVSURBVHhe7Zw/b9pAGIf5Bh075qN0zFfoUnXsmLVbl0phy8wQsRG1QzswMDJ06JKBARVFCpAmSpCHQmMFKG7QW5/t353/XKwuIb+q7yM9UvDZFroHODuDG6JQoUHIsEFm4W959eFKnr8fSePtUN2BZq7NnJu5BzbIy86V9yD18TVzD2yQZ+++eXdWH18z98AG8e2o7k6gQUgEGoREoEFIBBqERKBBSAQahESgQUgEGoREoEFIBBqERKBBSAQahESgQUgE5EHO5c1gKdPVNnuXhq0s5ks5+XRe2f9gfJ/uEswL2/e6d7JIBrYyOr0ojLEIeIM0b6QXFkOso+Lr6fBa9nLHeIPE5+mv0s2L8U1hfyYBaZCJtINs8qNI+l8u3UQ2L+VoHMk6GbyXfvfMHlcNcuHOE4byGucgFHAG6S29E+48k8Pv2UTPf8qLbHs5yP5gk76Ofkn7uHwOLgFlEDux1z8e/onphDJLdtrI51a6LR/ErRsPReUSUAZpB+l7mg4n3vFUrA1mwtNtNki86H+NzB+8i3hZQB1kdOofT60JYtnICflPFQTc35BB3U9NTZDg1i3mqzs5aJaP5RNQBrELdt0a0rqVabJTvGBnE55fQxqtuYySny3uy10IKIO4q6xIeh894395lfUv3BBCwBkkf/8QxVdR3UnNfYg7rhzEhHPrCvfVFiANEmvusMPszSVU79TLn/pqEGM+Lu/9COANYoy/DYfDlczK/8sKQjnqVD/t/iCxx249Wcdj+/kxEgF3kP9IoEFIBBqERKBBSAQahESgQUgEGoREoEFIBBqERKBBSAQahESgQUgEGoREoEFIBBqERGCD6KM1nk7vozX04TNPp/fhM/p4pt1b+3gmhQMNQoXIH7E3hsqGeoajAAAAAElFTkSuQmCC" InformativeScreenshot="1fc32a16e25d9d47c7bdda548a44e7ce.png" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='ACME System 1 - Add Account - Work - Microsoft​ Edge' /&gt;" SearchSteps="Selector" WaitForReadyArgument="Interactive">
+                                      <uix:TargetAnchorable.Anchors>
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                          <uix:Target DesignTimeRectangle="593, 111, 672, 188" FullSelectorArgument="&lt;ctrl name='acme-test.uipath.com says' role='dialog' /&gt;" FuzzySelectorArgument="&lt;ctrl name='acme-test.uipath.com says' role='dialog' automationid='' check:fulltext='Account was created!' /&gt;" ImageBase64="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" SearchSteps="Selector" />
+                                        </scg:List>
+                                      </uix:TargetAnchorable.Anchors>
+                                    </uix:TargetAnchorable>
+                                  </uix:NClick.Target>
+                                </uix:NClick>
+                              </Sequence>
+                            </ui:CommentOut.Body>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </ui:CommentOut>
+                        </Sequence>
+                      </ActivityAction>
+                    </uix:NApplicationCard.Body>
+                    <uix:NApplicationCard.TargetApp>
+                      <uix:TargetApp Area="-8, -8, 1382, 744" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAASJSURBVFhHvZdtbFNlFMePblYqvkYTRFyCLOrQhC9CjB80KCqaiCF80C+CRhIZClHJ3AsDt+6FjnbttIyXzRfI3NiYZIm46AcDm4XRN9a1XStu6waL2dgq2xhTTJZtj/9zy23vZltZafnwb/Pc3uf5/3ruec55LtEeZz90FRq/xWLPiwwgQipltYfHCRfWZg/lNXyMhQaac4LybYJ22ZOjfBbWZ4gyyXOEAcZJiwF+XHvM31jlubwx79fBzJw4Jc/NahnM3GkOisfZrYOZWuvw+ztODRRTCSJRJEV6NAjARJ/bxYamC2sAQFiEMCkuyXMBQDCXxGMAEAAIAKTa2wE/h8AfVwAUOcRL9f7tyQb42j2yPJUBCucC4MLrjb0fJQpgaHJm2crKzrbVDf4qHssAVc7LT0QFWJsgACHEQyllLkEfmgVtMYtdbUMnZACjbTg6wBvfhwHS9nur1Tq3EzvD+UpjrymSGWvFN7+bqeic416D25NS4tzMc1svXdtEm1sEVXgEfdKGjO8QMkC5LRAdYN3xMIBa77pGhdiWORax8khXIJI5a0mlV1CuRVAx7tW0H74OQOlfnRe07bSkpt5xzbwB7jN6LFSMrbLTJp6r7T4ZyZy17KBvStrbKDIPfOEpUADQ7paBDbnWwFMACOXAoVg5MAvA4LEpAFoimbMAMMP3MMBCvbtwDgABgIb/nr5NBqh2jSQPQFXWEQJYesAn1Hgsd+k6BPKpQgao8YwmGOCQb1oGUCsicI/RLegz5AZKsErn0skAdd7EA4QioATAvxa0G7Ufze1hU2ehDFCbaID0KACP8u5gANT9RV/GAXC/8YYBIj6CuADeVAAs2OuyS10LW2xVTfepSOasjGrfpASgxb2lTs1NASgrIZLIiwonKNsi1jT4f45kzko7EDZaaHDrbwrghaP+EMC7P/WfoE/PCso6K56t6xmMZM5K1SHb0copxypMzsBWGeCRfXEAPF8bBjjsG90ilVJuKngMXVcnH5trPiPECsqzcgmWttvFvyYXywCLTJ3zB3i5YRYAqcthnodF+OYCh8g/fek9vT2QUf/b2PLc1oFs4l5RgrnbzohnaruvAECaGysCNbEAXlO0YwZo/mNiK71zEhmO3zkfEGZVOULO4ywUGT5DsskHZjE2LV5VAqRxDvCjQR1YbPIW3FAEIgDQ28397bQDufAx2ipP4s7HB0xEhK+rNA6x8ZcBHQBICUBamGw/IyUxorRfBqj3zR+AmvsmVr3V1PfjgzqXuBu1PRX9fYnRM7Hphwvf9f8zpYJoLsCLR3uupO/rnHqyyidW1/mzZYAjnhjNKAYAAYAAQAAgABAACADE5lEACAAEAAJAqB0fdMYAwJEsdChNFsC3rpGMqAA4lK67BQB0Jx7jf4/lyOb1x/tKj50fW1phDzytt86WDjJAZZYhaWyIcM//qdL55+M66/D6VE5QJC+8JYDgqxkgUvDDAiTa7fjmMCVad0C0B+LaEXwdlF7NggN+V+PXJd5eTJcMyWvLnix89ECjUECS9vp3MjR7bXg6u/4FPqMYP5QOgtAAAAAASUVORK5CYII=" InformativeScreenshot="538d30b82fd3a976782cee6807699dd5.jpg" Selector="&lt;html app='msedge.exe' title='ACME System 1 - Add Account' /&gt;" Title="ACME System 1 - Add Account" Url="https://acme-test.uipath.com/bank/account" />
+                    </uix:NApplicationCard.TargetApp>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </uix:NApplicationCard>
+                  <ui:SetTransactionStatus ContinueOnError="{x:Null}" Reason="{x:Null}" ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Set Transaction Status to Successful" ErrorType="Business" FolderPath="Queue demo" sap:VirtualizedContainerService.HintSize="479,214" sap2010:WorkflowViewState.IdRef="SetTransactionStatus_1" Status="Successful" TransactionItem="[TransactionItem]">
+                    <ui:SetTransactionStatus.Analytics>
+                      <scg:Dictionary x:TypeArguments="x:String, InArgument" />
+                    </ui:SetTransactionStatus.Analytics>
+                    <ui:SetTransactionStatus.Output>
+                      <scg:Dictionary x:TypeArguments="x:String, InArgument" />
+                    </ui:SetTransactionStatus.Output>
+                  </ui:SetTransactionStatus>
+                </Sequence>
+              </TryCatch.Try>
+              <TryCatch.Catches>
+                <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="400,312" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ActivityAction x:TypeArguments="s:Exception">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                    </ActivityAction.Argument>
+                    <ui:SetTransactionStatus ContinueOnError="{x:Null}" ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Set Transaction Status to Failed" ErrorType="Business" FolderPath="Shared" sap:VirtualizedContainerService.HintSize="334,242" sap2010:WorkflowViewState.IdRef="SetTransactionStatus_2" Reason="Incorrect data has been entered" Status="Failed" TransactionItem="[TransactionItem]">
+                      <ui:SetTransactionStatus.Analytics>
+                        <scg:Dictionary x:TypeArguments="x:String, InArgument" />
+                      </ui:SetTransactionStatus.Analytics>
+                      <ui:SetTransactionStatus.Output>
+                        <scg:Dictionary x:TypeArguments="x:String, InArgument" />
+                      </ui:SetTransactionStatus.Output>
+                    </ui:SetTransactionStatus>
+                  </ActivityAction>
+                </Catch>
+              </TryCatch.Catches>
+            </TryCatch>
+          </Sequence>
+        </If.Then>
+        <If.Else>
+          <Sequence DisplayName="If no more data terminate execution" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <TerminateWorkflow DisplayName="Terminate Workflow if no more data" sap:VirtualizedContainerService.HintSize="354,113" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_1" Reason="No transaction data" />
+          </Sequence>
+        </If.Else>
+      </If>
+    </Sequence>
+  </Sequence>
+</Activity>

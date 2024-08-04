@@ -1,0 +1,28 @@
+Test123 Test123
+Ontario  K2P 4P7
+Purchase order
+PO number/date
+4500000000 / 08/25/2020
+Contact person/Telephone
+Einkäufer 1/06227/341285
+
+Your vendor number with us
+100000
+
+Please deliver to:
+POS Plant1
+INDIA
+Delivery date:
+Day 08/25/2020
+
+Currency CAD
+_______________________________________________________________________
+Item Material Description
+Order qty.  Unit       Price per unit    Net value
+_______________________________________________________________________
+
+00010 1 Test
+10 Each        100.00        1,000.00
+_______________________________________________________________________
+
+Total net value excl. tax CAD            1,000.00

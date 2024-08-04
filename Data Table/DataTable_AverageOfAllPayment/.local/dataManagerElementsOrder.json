@@ -1,0 +1,31 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_CardExpenses&Sequence_7",
+        "dt_CashExpenses&Sequence_7",
+        "Months&Sequence_7",
+        "ExpenseDate&Sequence_7",
+        "ExpenseMonth&Sequence_7",
+        "ExpenseName&Sequence_7",
+        "ExpenseValue&Sequence_7",
+        "MonthlyTotal&Sequence_7",
+        "MonthIndexInCollection&Sequence_7",
+        "dt_MonthlyExpenses&Sequence_7"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

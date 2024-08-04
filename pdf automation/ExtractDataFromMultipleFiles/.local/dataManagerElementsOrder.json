@@ -1,0 +1,28 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "InvoiceTotal&Sequence_3",
+        "InvoiceDate&Sequence_3",
+        "InvoiceNumber&Sequence_3",
+        "dt_DataTable&Sequence_1",
+        "FolderPath&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "In_FilePath"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

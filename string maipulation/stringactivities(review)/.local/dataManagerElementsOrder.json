@@ -1,0 +1,51 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strRText&Sequence_10",
+        "strRText2&Sequence_11",
+        "intAge&Sequence_11",
+        "strText2&Sequence_1",
+        "strAge&Sequence_1",
+        "intAge&Sequence_1",
+        "strFirstname&Sequence_1",
+        "strText&Sequence_1",
+        "strDetails&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_outputfile",
+        "in_inputfile"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "tet.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strRText2&Sequence_1",
+        "intAge&Sequence_1",
+        "strAge&Sequence_1",
+        "strRText&Sequence_1",
+        "strFirstName&Sequence_1",
+        "strDetails&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_outputfile",
+        "in_inputfile"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

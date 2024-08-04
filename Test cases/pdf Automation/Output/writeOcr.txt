@@ -1,0 +1,17 @@
+Purchase order
+Testl23 Testl23
+Ontario K2P 4P7 PO number/date
+4500000000 / 08/25/2020
+Contact person/Telephone
+Eink&ufer 1/06227/341285
+Your vendor number with us
+100000
+Please deliver to: Delivery date: Day 08/25/2020
+POS Plantl
+INDIA
+Currency CAD
+ltem Material Description
+Order qty. Unit Price per unit Net value
+00010 1 Test
+10 Each 100.00 1,000.00
+Total net value excl. tax CAD 1,000.00

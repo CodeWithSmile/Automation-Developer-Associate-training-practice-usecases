@@ -1,0 +1,103 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Element&Flowchart_1",
+        "image&Flowchart_1",
+        "varStop&Flowchart_1",
+        "pwd&Flowchart_1",
+        "user&Flowchart_1",
+        "pass&Flowchart_1",
+        "userName1&Flowchart_1",
+        "password1&Flowchart_1",
+        "pwd1&Flowchart_1",
+        "user1&Flowchart_1",
+        "counter&Flowchart_1",
+        "testVar&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "addNewItemQueue.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtRead&Flowchart_1",
+        "arg_CashIn&Sequence_1",
+        "arg_OnUSCheck&Sequence_1",
+        "arg_NotOnUsCheck&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "GetQueueContents.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "item&Flowchart_1",
+        "var_CashIn&Sequence_2",
+        "var_NotOnUsCheck&Sequence_2",
+        "var_OnUSCheck&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "addItemQueue.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtItems&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "arg_OnUSCheck",
+        "arg_CashIn",
+        "arg_NotOnUsCheck"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ChallengeaAddQueue.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtItems&Flowchart_1",
+        "arg_FirstName&Flowchart_1",
+        "arg_LastName&Flowchart_1",
+        "arg_Company&Flowchart_1",
+        "arg_Role&Flowchart_1",
+        "arg_Address&Flowchart_1",
+        "arg_Email&Flowchart_1",
+        "arg_Phone&Flowchart_1",
+        "textValue&Flowchart_1",
+        "phNo&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ChallengeGetQueItem.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "browser&Flowchart_1",
+        "transactionItem&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}

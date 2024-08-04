@@ -1,0 +1,33 @@
+{
+  "DisplayName": "Acme Login",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_Email",
+      "DisplayName": "in_Email",
+      "Category": null,
+      "Tooltip": "Acme Email",
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_password",
+      "DisplayName": "in_password",
+      "Category": null,
+      "Tooltip": "Acme Password",
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

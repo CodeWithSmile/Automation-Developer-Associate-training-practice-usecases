@@ -1,0 +1,45 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ContractFolderPath&Sequence_1",
+        "ExtractedFolderPath&Sequence_1",
+        "InputFolderPath&Sequence_1",
+        "InputFileInfo&Sequence_1",
+        "InputFilePath&Sequence_1",
+        "InputPath&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "practice_file_folder.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "FolderExist&Sequence_2",
+        "ProcessFolderPath&Sequence_2",
+        "InvoiceFolderPath&Sequence_2",
+        "InputPath&Sequence_2",
+        "InputFilePath&Sequence_2",
+        "InputFileInfo&Sequence_2",
+        "InputFolderPath&Sequence_2",
+        "ExtractedFolderPath&Sequence_2",
+        "ContractFolderPath&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

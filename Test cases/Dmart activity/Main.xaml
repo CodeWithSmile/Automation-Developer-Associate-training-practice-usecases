@@ -1,0 +1,295 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:Annotation.AnnotationText="UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9" sap:VirtualizedContainerService.HintSize="690,7385" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="608,7320" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="546,7232" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" NewSession="True" Url="https://www.dmartindia.com/partner-with-us">
+      <ui:OpenBrowser.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="512,7044" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="Use Browser Chrome: Partner with Us | DMart" sap:VirtualizedContainerService.HintSize="450,6959" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="db0549b0-5fb8-4a85-8b8c-a70844ccb536" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,6719" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_32" ScopeIdentifier="db0549b0-5fb8-4a85-8b8c-a70844ccb536" Text="DATTAKALA" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.dmartindia.com/partner-with-us" CvElementArea="90, 412, 578, 58" CvType="InputBox" DesignTimeRectangle="91, 413, 576, 56" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' class='MuiInputBase-input MuiOutlinedInput-input' placeholder='Enter Name of Organisation / Company' aaname='' /&gt;" Guid="4229b4c9-a51d-47b6-9319-b925335a452c" InformativeScreenshot="072c931b5ccb79148a3d71e9425c84df.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Partner with Us | DMart' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Category *'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_33" ScopeIdentifier="db0549b0-5fb8-4a85-8b8c-a70844ccb536" Text="EDUCATION" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.dmartindia.com/partner-with-us" CvElementArea="700, 412, 577, 58" CvType="InputBox" DesignTimeRectangle="708, 422, 528, 38" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='combo-box' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='combo-box' tag='INPUT' type='text' class='MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd' placeholder='Enter Category' aaname='Category *' /&gt;" Guid="9291b1f4-1273-4593-8b6a-675f3896946a" InformativeScreenshot="5d858c80bdfc7b5c6e13af7eff1937cd.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Partner with Us | DMart' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target CvElementArea="700, 412, 577, 58" CvType="InputBox" DesignTimeRectangle="713, 407, 60, 13" ElementType="Text" FullSelectorArgument="&lt;webctrl id='combo-box-label' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl id='combo-box-label' tag='LABEL' type='' class='MuiFormLabel-root MuiInputLabel-root jss70 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined Mui-required Mui-required' aaname='Category' check:innerText='Category *' /&gt;" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_34" ScopeIdentifier="db0549b0-5fb8-4a85-8b8c-a70844ccb536" Text="DATTAKALA.EDU.COM" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.dmartindia.com/partner-with-us" CvElementArea="90, 484, 580, 58" CvType="InputBox" DesignTimeRectangle="91, 485, 576, 56" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl name='website' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl name='website' tag='INPUT' type='text' class='MuiInputBase-input MuiOutlinedInput-input' placeholder='Enter Website' aaname='' /&gt;" Guid="78f10ce3-111e-4e28-9d39-28f5f094cdaa" InformativeScreenshot="c5bc30ff363a35e4c09c97af48cd2a9e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Partner with Us | DMart' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_35" ScopeIdentifier="db0549b0-5fb8-4a85-8b8c-a70844ccb536" Text="EDUCATION" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.dmartindia.com/partner-with-us" CvElementArea="699, 484, 579, 58" CvType="InputBox" DesignTimeRectangle="699, 485, 576, 56" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl name='goodsOffered' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='goodsOffered' tag='INPUT' type='text' class='MuiInputBase-input MuiOutlinedInput-input' placeholder='Goods/Services Being Offered' aaname='' /&gt;" Guid="0638e1fc-1ab2-4d31-97d4-52d067f099d6" InformativeScreenshot="c71bbb19c5f66a197485c111a2925cb7.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Partner with Us | DMart' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_36" ScopeIdentifier="db0549b0-5fb8-4a85-8b8c-a70844ccb536" Text="MUSKAN" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.dmartindia.com/partner-with-us" CvElementArea="91, 556, 579, 58" CvType="InputBox" DesignTimeRectangle="91, 557, 576, 56" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl name='firstname' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl name='firstname' tag='INPUT' type='text' class='MuiInputBase-input MuiOutlinedInput-input' placeholder='Enter First Name' aaname='' /&gt;" Guid="903b20d4-210a-47f0-bb46-88d00e18fd0b" InformativeScreenshot="244c827e0033e8c5dd9702eab8b11e8a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Partner with Us | DMart' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_29" ScopeIdentifier="db0549b0-5fb8-4a85-8b8c-a70844ccb536" Text="ABCTY1234D" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.dmartindia.com/partner-with-us" CvElementArea="698, 556, 579, 58" CvType="InputBox" DesignTimeRectangle="699, 557, 576, 56" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl name='pancard' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='pancard' tag='INPUT' type='text' class='MuiInputBase-input MuiOutlinedInput-input' placeholder='Pan Card' aaname='' /&gt;" Guid="dbf8a7d4-35a9-4964-891d-6d1bf31f5d97" InformativeScreenshot="c38ca96ce76304ca5e8313fd9826bf20.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Partner with Us | DMart' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_37" ScopeIdentifier="db0549b0-5fb8-4a85-8b8c-a70844ccb536" Text="SAYYAD" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.dmartindia.com/partner-with-us" CvElementArea="91, 628, 579, 59" CvType="InputBox" DesignTimeRectangle="91, 629, 576, 56" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl name='lastName' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl name='lastName' tag='INPUT' type='text' class='MuiInputBase-input MuiOutlinedInput-input' placeholder='Enter Last Name' aaname='' /&gt;" Guid="542681d6-64fd-4a7d-9e3e-6be5a4baeb59" InformativeScreenshot="c3876ca36e07f37282d1d18823d00fbe.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Partner with Us | DMart' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_30" ScopeIdentifier="db0549b0-5fb8-4a85-8b8c-a70844ccb536" Text="22AAAAA0000A1Z5" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.dmartindia.com/partner-with-us" CvElementArea="700, 628, 578, 58" CvTextArea="712, 694, 124, 14" CvTextArgument="GST Registration Type*" CvType="InputBox" DesignTimeRectangle="699, 652, 576, 56" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl name='gst' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='gst' tag='INPUT' type='text' class='MuiInputBase-input MuiOutlinedInput-input' placeholder='Enter GST No.' aaname='' /&gt;" Guid="31c23499-5b3d-4edb-bb13-bd4858ca1221" InformativeScreenshot="37f9311902dd72ae4127c73ae7ab4dae.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Partner with Us | DMart' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_38" ScopeIdentifier="db0549b0-5fb8-4a85-8b8c-a70844ccb536" Text="DATTAKALA@DGOI.COM" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.dmartindia.com/partner-with-us" CvElementArea="90, 484, 580, 58" CvTextArea="104, 551, 65, 12" CvTextArgument="First Name" CvType="InputBox" DesignTimeRectangle="91, 501, 576, 56" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' type='email' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='email' class='MuiInputBase-input MuiOutlinedInput-input' placeholder='Enter Email Id' aaname='' /&gt;" Guid="ebe75eb6-f351-409d-88f5-88714f7c2f7f" InformativeScreenshot="3d281a1fe8936662f04b86614ad7f1e0.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Partner with Us | DMart' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_39" ScopeIdentifier="db0549b0-5fb8-4a85-8b8c-a70844ccb536" Text="9845678920" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.dmartindia.com/partner-with-us" CvElementArea="91, 572, 580, 58" CvType="InputBox" DesignTimeRectangle="91, 573, 576, 56" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl name='mobile' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='mobile' tag='INPUT' type='text' class='MuiInputBase-input MuiOutlinedInput-input' placeholder='Enter Mobile No' aaname='' /&gt;" Guid="8568feca-747a-45bc-b38f-93dc609cf801" InformativeScreenshot="ae28dc8442305d58f974e6e615f9f788.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Partner with Us | DMart' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_54" ScopeIdentifier="db0549b0-5fb8-4a85-8b8c-a70844ccb536" Text="1" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.dmartindia.com/partner-with-us" CvElementArea="701, 501, 578, 57" CvType="InputBox" DesignTimeRectangle="699, 501, 576, 56" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' type='number' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='number' class='MuiInputBase-input MuiOutlinedInput-input' placeholder='Period in Distributorship / Manufacturing /Import' aaname='' /&gt;" Guid="3697f104-3f21-43a3-b768-9e61622535cc" InformativeScreenshot="c720c1de321713d31bf2b38526516e25.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Partner with Us | DMart' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_41" ScopeIdentifier="db0549b0-5fb8-4a85-8b8c-a70844ccb536" Text="+91-1234 5678 21" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.dmartindia.com/partner-with-us" CvElementArea="92, 525, 578, 58" CvType="InputBox" DesignTimeRectangle="91, 526, 576, 56" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl name='telno' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='telno' tag='INPUT' type='text' class='MuiInputBase-input MuiOutlinedInput-input' placeholder='Enter Telephone No' aaname='' /&gt;" Guid="994fa4d1-9360-4ba1-9e0e-e06d4255f70e" InformativeScreenshot="dbf4ee7fba06dd46c084e265a5da703c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Partner with Us | DMart' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_42" ScopeIdentifier="db0549b0-5fb8-4a85-8b8c-a70844ccb536" Text="19KM" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.dmartindia.com/partner-with-us" CvElementArea="697, 548, 581, 59" CvType="InputBox" DesignTimeRectangle="699, 549, 576, 56" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl name='areaCovered' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='areaCovered' tag='INPUT' type='text' class='MuiInputBase-input MuiOutlinedInput-input' placeholder='Area Covered' aaname='' /&gt;" Guid="8cad2df1-300c-4c11-ad36-97a0d2fd60c5" InformativeScreenshot="261de1558ea69caed0bca4efd6b05367.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Partner with Us | DMart' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'State *'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_31" ScopeIdentifier="db0549b0-5fb8-4a85-8b8c-a70844ccb536" Text="MAHARASHTRA" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.dmartindia.com/partner-with-us" CvElementArea="91, 359, 577, 57" CvType="InputBox" DesignTimeRectangle="100, 369, 528, 38" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='mui-84132' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='mui-84132' tag='INPUT' type='text' class='MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd' placeholder='Enter State' aaname='State *' /&gt;" Guid="e0297325-ee8e-438a-bc12-2694fb506b3b" InformativeScreenshot="46ea798287bf207bfcc5cd633b2598df.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Partner with Us | DMart' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target CvElementArea="91, 359, 577, 57" CvType="InputBox" DesignTimeRectangle="105, 354, 38, 13" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='State' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='State' tag='LABEL' type='' class='MuiFormLabel-root MuiInputLabel-root jss70 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined Mui-required Mui-required' check:innerText='State *' /&gt;" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_43" ScopeIdentifier="db0549b0-5fb8-4a85-8b8c-a70844ccb536" Text="345678" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.dmartindia.com/partner-with-us" CvElementArea="698, 620, 580, 59" CvType="InputBox" DesignTimeRectangle="699, 621, 576, 56" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl name='turnover' tag='INPUT' type='number' /&gt;" FuzzySelectorArgument="&lt;webctrl name='turnover' tag='INPUT' type='number' class='MuiInputBase-input MuiOutlinedInput-input' placeholder='Annual Turnover' aaname='' /&gt;" Guid="0cf4de6e-6112-47f7-9090-39d4d653e921" InformativeScreenshot="9ce8fa321b676ed1fd98e306f04056bb.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Partner with Us | DMart' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'City *'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_40" ScopeIdentifier="db0549b0-5fb8-4a85-8b8c-a70844ccb536" Text="PUNE" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.dmartindia.com/partner-with-us" CvElementArea="90, 597, 579, 58" CvType="InputBox" DesignTimeRectangle="100, 602, 528, 38" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='mui-50877' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='mui-50877' tag='INPUT' type='text' class='MuiInputBase-input MuiOutlinedInput-input MuiAutocomplete-input MuiAutocomplete-inputFocused MuiInputBase-inputAdornedEnd MuiOutlinedInput-inputAdornedEnd' placeholder='Enter City' aaname='City *' /&gt;" Guid="5bb2d5fd-059b-443c-ba01-048ccd11aa5f" InformativeScreenshot="1cfc1fd47bda6b50499ddabb98982db3.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Partner with Us | DMart' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target CvTextArea="104, 592, 32, 12" CvTextArgument="State" CvType="Text" DesignTimeRectangle="105, 587, 30, 13" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='City' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='City' tag='LABEL' type='' class='MuiFormLabel-root MuiInputLabel-root jss70 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-outlined Mui-required Mui-required' check:innerText='City *' /&gt;" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_44" ScopeIdentifier="db0549b0-5fb8-4a85-8b8c-a70844ccb536" Text="PUNE" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.dmartindia.com/partner-with-us" CvElementArea="89, 436, 581, 58" CvType="InputBox" DesignTimeRectangle="91, 437, 576, 56" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl name='companyAddress' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='companyAddress' tag='INPUT' type='text' class='MuiInputBase-input MuiOutlinedInput-input' placeholder='Enter Company Address' aaname='' /&gt;" Guid="953ec5fe-a205-4786-b318-6ce23f060ccf" InformativeScreenshot="2b0cd5cfced72fa2cb9620492c1078e9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Partner with Us | DMart' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_45" ScopeIdentifier="db0549b0-5fb8-4a85-8b8c-a70844ccb536" Text="BHIGWAN" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.dmartindia.com/partner-with-us" CvElementArea="90, 352, 577, 55" CvType="InputBox" DesignTimeRectangle="91, 365, 576, 56" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl name='location' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='location' tag='INPUT' type='text' class='MuiInputBase-input MuiOutlinedInput-input' placeholder='Enter Location' aaname='' /&gt;" Guid="65c8e4bd-3dc2-4215-bd8e-ec6d0c28dec1" InformativeScreenshot="368bd61627b12f5b9bf4d57c1cc6250f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Partner with Us | DMart' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_46" ScopeIdentifier="db0549b0-5fb8-4a85-8b8c-a70844ccb536" Text="413130" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.dmartindia.com/partner-with-us" CvElementArea="91, 508, 578, 58" CvType="InputBox" DesignTimeRectangle="91, 509, 576, 56" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl name='pincode' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='pincode' tag='INPUT' type='text' class='MuiInputBase-input MuiOutlinedInput-input' placeholder='Enter Pincode' aaname='' /&gt;" Guid="7620ce92-16fd-4095-b5cd-01871eee9bfe" InformativeScreenshot="dd6b5af06ea1b6fdfb182e98be3eeb30.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Partner with Us | DMart' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_47" ScopeIdentifier="db0549b0-5fb8-4a85-8b8c-a70844ccb536" Text="XYZ" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.dmartindia.com/partner-with-us" CvElementArea="698, 396, 286, 58" CvType="InputBox" DesignTimeRectangle="699, 397, 284, 56" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl name='RTname1' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='RTname1' tag='INPUT' type='text' class='MuiInputBase-input MuiOutlinedInput-input' placeholder='Retailer Name' aaname='' /&gt;" Guid="b57bf369-69a1-43f3-a21e-7092aad50a85" InformativeScreenshot="79ce3acec32f504c34324365780b0340.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Partner with Us | DMart' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_48" ScopeIdentifier="db0549b0-5fb8-4a85-8b8c-a70844ccb536" Text="1000000" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.dmartindia.com/partner-with-us" CvElementArea="990, 396, 287, 59" CvType="InputBox" DesignTimeRectangle="991, 397, 284, 56" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl name='RTvalue1' tag='INPUT' type='number' /&gt;" FuzzySelectorArgument="&lt;webctrl name='RTvalue1' tag='INPUT' type='number' class='MuiInputBase-input MuiOutlinedInput-input' placeholder='Turn Over' aaname='' /&gt;" Guid="82ec7963-7b41-4594-9ea7-a58107b484af" InformativeScreenshot="d65542cb1ccd364e06b4cd0f24a85ec0.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Partner with Us | DMart' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_49" ScopeIdentifier="db0549b0-5fb8-4a85-8b8c-a70844ccb536" Text="ABC" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.dmartindia.com/partner-with-us" CvElementArea="699, 469, 285, 58" CvType="InputBox" DesignTimeRectangle="699, 469, 284, 56" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl name='RTname2' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='RTname2' tag='INPUT' type='text' class='MuiInputBase-input MuiOutlinedInput-input' placeholder='Retailer Name' aaname='' /&gt;" Guid="7e2b50fb-dd72-4e2d-85e3-80bec37b6580" InformativeScreenshot="1684deeaa0f25c37cd8dde1e68b7dfa9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Partner with Us | DMart' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_50" ScopeIdentifier="db0549b0-5fb8-4a85-8b8c-a70844ccb536" Text="34567" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.dmartindia.com/partner-with-us" CvElementArea="991, 468, 287, 59" CvType="InputBox" DesignTimeRectangle="991, 469, 284, 56" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl name='RTvalue2' tag='INPUT' type='number' /&gt;" FuzzySelectorArgument="&lt;webctrl name='RTvalue2' tag='INPUT' type='number' class='MuiInputBase-input MuiOutlinedInput-input' placeholder='Turn Over' aaname='' /&gt;" Guid="a150e774-3922-43ca-88d2-ccf54589453c" InformativeScreenshot="2d2dd0cd9349ed0b791d28a3e3856f4f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Partner with Us | DMart' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_51" ScopeIdentifier="db0549b0-5fb8-4a85-8b8c-a70844ccb536" Text="MNO" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.dmartindia.com/partner-with-us" CvElementArea="698, 540, 286, 58" CvType="InputBox" DesignTimeRectangle="699, 541, 284, 56" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl name='RTname3' tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl name='RTname3' tag='INPUT' type='text' class='MuiInputBase-input MuiOutlinedInput-input' placeholder='Retailer Name' aaname='' /&gt;" Guid="c5ae470e-2bfe-42ea-96b7-2ed634f95839" InformativeScreenshot="28e9cbfb0745d43a373e9c8fc826da43.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Partner with Us | DMart' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_52" ScopeIdentifier="db0549b0-5fb8-4a85-8b8c-a70844ccb536" Text="1234567" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.dmartindia.com/partner-with-us" CvElementArea="990, 540, 287, 58" CvType="InputBox" DesignTimeRectangle="991, 541, 284, 56" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl name='RTvalue3' tag='INPUT' type='number' /&gt;" FuzzySelectorArgument="&lt;webctrl name='RTvalue3' tag='INPUT' type='number' class='MuiInputBase-input MuiOutlinedInput-input' placeholder='Turn Over' aaname='' /&gt;" Guid="ea7e35d4-a02c-41b7-9d2b-5d7f5386c558" InformativeScreenshot="f3b8bcf87b75189bdc2d51eecbc88394.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Partner with Us | DMart' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit'" sap:VirtualizedContainerService.HintSize="354,182" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="db0549b0-5fb8-4a85-8b8c-a70844ccb536" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.dmartindia.com/partner-with-us" CvElementArea="1186, 611, 89, 40" CvTextArea="1202, 623, 56, 13" CvTextArgument="SUBMIT" CvType="Button" DesignTimeRectangle="1203, 619, 54, 24" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl class='MuiButton-label' parentid='simple-tabpanel-0' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl class='MuiButton-label' parentid='simple-tabpanel-0' tag='SPAN' type='' aaname='Submit' check:innerText='SUBMIT' /&gt;" Guid="8e51c654-92c8-46fa-be3a-038d835d27a5" InformativeScreenshot="d3283ff4c1a8bc29f97c463a80742283.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Partner with Us | DMart' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target CvElementArea="1186, 611, 89, 40" CvTextArea="1202, 623, 56, 13" CvTextArgument="SUBMIT" CvType="Button" DesignTimeRectangle="1187, 613, 86, 36" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Submit' parentid='simple-tabpanel-0' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Submit' parentid='simple-tabpanel-0' tag='BUTTON' type='button' class='MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary' check:innerText='SUBMIT' /&gt;" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABrSURBVChTY0AGWiVuVkCsCeWiAqAEHxA3AXEVEHNBhRFAvcwVpEgOiNU5NCWgokgAKCEGxG5QzAcVRgCgoCcQp0GxO1QYAoACPEAMciAMWwMxwh1AjgwQ26FhSZgkFxBXA3ErGq7SKXVjAgDvmypII2+j1AAAAABJRU5ErkJggg==" InformativeScreenshot="6e4603fdb4c8d58ce02f7053a1ee26f6.jpg" Selector="&lt;html app='chrome.exe' title='Partner with Us | DMart' /&gt;" Title="Partner with Us | DMart" Url="https://www.dmartindia.com/partner-with-us" />
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </ui:OpenBrowser.Body>
+    </ui:OpenBrowser>
+  </Sequence>
+</Activity>

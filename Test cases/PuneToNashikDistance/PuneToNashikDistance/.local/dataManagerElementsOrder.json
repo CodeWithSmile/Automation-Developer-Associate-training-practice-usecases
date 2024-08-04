@@ -1,0 +1,32 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "nh&Sequence_1",
+        "nm&Sequence_1",
+        "ns&Sequence_1",
+        "nashikSec&Sequence_1",
+        "puneSec&Sequence_1",
+        "totalSec&Sequence_1",
+        "totalMin&Sequence_1",
+        "variable1&Sequence_3",
+        "allTotalSec&Sequence_6",
+        "allTotalMin&Sequence_6",
+        "allTotalHr&Sequence_6"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "total&Sequence_1",
+        "RowNumber&Sequence_1",
+        "dt_marks&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "String.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "maxValue&Sequence_2",
+        "Value&Sequence_2",
+        "RowNumber&Sequence_1",
+        "LastName&Sequence_2",
+        "firstName&Sequence_2",
+        "splitName&Sequence_2",
+        "Name&Sequence_2",
+        "dt_string&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

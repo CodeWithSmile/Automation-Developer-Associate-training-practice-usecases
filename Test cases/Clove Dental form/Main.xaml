@@ -1,0 +1,253 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:Annotation.AnnotationText="UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9" sap:VirtualizedContainerService.HintSize="598,4289" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="608,4224" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Edge" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="546,4136" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="https://clovedental.in/advanced-dental-health-plan-dhp?utm_source=google&amp;utm_medium=pmax&amp;utm_campaign=GD_ADHP_Sale8Sep&amp;gad_source=1&amp;gclid=Cj0KCQjw8J6wBhDXARIsAPo7QA_otJsMy2VJQcgvk--2HkKcwuSeBcn0wboaF20NkwAwmQzeAWNWl9kaAoUFEALw_wcB">
+      <ui:OpenBrowser.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="512,3988" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Advanced Dental Health Plan DHP - Clove Dental" sap:VirtualizedContainerService.HintSize="450,3903" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="f602918e-9102-4409-ae8b-5b5ffca472c4" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,3623" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'book an appointment'" sap:VirtualizedContainerService.HintSize="354,189" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f602918e-9102-4409-ae8b-5b5ffca472c4" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://clovedental.in/advanced-dental-health-plan-dhp?utm_source=google&amp;utm_medium=pmax&amp;utm_campaign=GD_ADHP_Sale8Sep&amp;gad_source=1&amp;gclid=Cj0KCQjw8J6wBhDXARIsAPo7QA_otJsMy2VJQcgvk--2HkKcwuSeBcn0wboaF20NkwAwmQzeAWNWl9kaAoUFEALw_wcB" DesignTimeRectangle="1155, 91, 150, 45" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl class='book-btn' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl class='book-btn' tag='A' type='' aaname='                              book an appointment' check:innerText='BOOK AN&amp;#xA;APPOINTMENT' /&gt;" Guid="1f2370b7-c790-4e3a-a783-5294c1eb17c6" InformativeScreenshot="c68b8504c48ffdc51bfccfa1cf7183d1.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Advanced Dental Health Plan DHP - Clove Dental' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NSelectItem DisplayName="Select Item" sap:VirtualizedContainerService.HintSize="354,189" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="Jalandhar" ScopeIdentifier="f602918e-9102-4409-ae8b-5b5ffca472c4" Version="V3">
+                      <uix:NSelectItem.Items>
+                        <scg:List x:TypeArguments="x:String" Capacity="23">
+                          <x:String>Select City</x:String>
+                          <x:String>Ahmedabad</x:String>
+                          <x:String>Amritsar</x:String>
+                          <x:String>Bengaluru</x:String>
+                          <x:String>Chandigarh</x:String>
+                          <x:String>Chennai</x:String>
+                          <x:String>Delhi</x:String>
+                          <x:String>Faridabad</x:String>
+                          <x:String>Ghaziabad</x:String>
+                          <x:String>Greater Noida</x:String>
+                          <x:String>Gurgaon</x:String>
+                          <x:String>Hyderabad</x:String>
+                          <x:String>Jaipur</x:String>
+                          <x:String>Jalandhar</x:String>
+                          <x:String>Kakinada</x:String>
+                          <x:String>Ludhiana</x:String>
+                          <x:String>Mohali</x:String>
+                          <x:String>Noida</x:String>
+                          <x:String>Panchkula</x:String>
+                          <x:String>Pune</x:String>
+                          <x:String>Vijayawada</x:String>
+                          <x:String>Vizag</x:String>
+                          <x:String>Zirakpur</x:String>
+                        </scg:List>
+                      </uix:NSelectItem.Items>
+                      <uix:NSelectItem.Target>
+                        <uix:TargetAnchorable BrowserURL="https://clovedental.in/appointments/" DesignTimeRectangle="93, 493, 338, 38" DesignTimeScaleFactor="1" ElementType="DropDown" FullSelectorArgument="&lt;webctrl id='clinicHeade' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='clinicHeade' tag='SELECT' type='' class='select_box select' aaname='' /&gt;" Guid="2a9785d0-8e2b-4df6-9133-7debc2a17695" InformativeScreenshot="1472c50b06a6f74b9ddeb79e40ed65c4.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Book Appointment with Best Dentist Near You - Clove Dental Appointment' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive" />
+                      </uix:NSelectItem.Target>
+                    </uix:NSelectItem>
+                    <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="354,122" sap2010:WorkflowViewState.IdRef="Delay_2" />
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT phone'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,250" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="f602918e-9102-4409-ae8b-5b5ffca472c4" Text="9834313586" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://clovedental.in/appointments/" CvElementArea="92, 588, 340, 41" CvType="InputBox" DesignTimeRectangle="93, 590, 338, 38" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='phone' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='phone' tag='INPUT' type='text' class='input_box' placeholder='Mobile Number' aaname='' /&gt;" Guid="fb96a1b0-a31e-43d6-924a-aa54ffd84763" InformativeScreenshot="5b035749d19c3a3876c67be62c9efa49.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Book Appointment with Best Dentist Near You - Clove Dental Appointment' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="354,122" sap2010:WorkflowViewState.IdRef="Delay_3" />
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Send OTP'" sap:VirtualizedContainerService.HintSize="354,189" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f602918e-9102-4409-ae8b-5b5ffca472c4" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://clovedental.in/appointments/" CvElementArea="91, 484, 139, 36" CvTextArea="113, 493, 93, 18" CvTextArgument="SEND OTP" CvType="Button" DesignTimeRectangle="93, 487, 135, 30" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl id='send_otp' tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl id='send_otp' tag='P' type='' class='button' aaname='Send OTP' check:innerText='SEND OTP' /&gt;" Guid="5b5920bf-7f94-48c0-b8ef-b7951ce9882a" InformativeScreenshot="b893bf4b8a98aa7e5a3f351c09d3a44b.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Book Appointment with Best Dentist Near You - Clove Dental Appointment' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="354,122" sap2010:WorkflowViewState.IdRef="Delay_4" />
+                    <uix:NSelectItem DisplayName="Select Item" sap:VirtualizedContainerService.HintSize="354,189" sap2010:WorkflowViewState.IdRef="NSelectItem_2" Item="Ravidas Chowk" ScopeIdentifier="f602918e-9102-4409-ae8b-5b5ffca472c4" Version="V3">
+                      <uix:NSelectItem.Items>
+                        <scg:List x:TypeArguments="x:String" Capacity="4">
+                          <x:String>Select Clinic</x:String>
+                          <x:String>Jalandhar – Model Town</x:String>
+                          <x:String>Jalandhar – Vijay Nagar</x:String>
+                          <x:String>Ravidas Chowk</x:String>
+                        </scg:List>
+                      </uix:NSelectItem.Items>
+                      <uix:NSelectItem.Target>
+                        <uix:TargetAnchorable BrowserURL="https://clovedental.in/appointments/" CvElementArea="488, 314, 341, 41" CvType="InputBox" DesignTimeRectangle="488, 315, 339, 38" DesignTimeScaleFactor="1" ElementType="DropDown" FullSelectorArgument="&lt;webctrl id='state_id' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='state_id' tag='SELECT' type='' class='select_box select' aaname='' /&gt;" Guid="2e37aa58-ee01-464c-af2a-e99bfb3cd82a" InformativeScreenshot="954051bc6115aa969da6881c5800666c.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Book Appointment with Best Dentist Near You - Clove Dental Appointment' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NSelectItem.Target>
+                    </uix:NSelectItem>
+                    <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="354,122" sap2010:WorkflowViewState.IdRef="Delay_5" />
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '2024/04/19 20:05'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,250" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="f602918e-9102-4409-ae8b-5b5ffca472c4" Text="[&quot;2024/04/19 20:05 &quot;+ &quot;[k(Tab)]&quot;]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://clovedental.in/appointments/" DesignTimeRectangle="506, 438, 303, 56" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='selectedDate' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='selectedDate' tag='INPUT' type='date' class='input_datetext' aaname='Select Date' /&gt;" Guid="aed03622-e8a3-4d13-9961-d7bbc7925282" InformativeScreenshot="b08fd0a9e44c8ccfb35f4ff4aa0dc3cf.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Book Your Dentist Appointment at Clove Dental Clinics Near You' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V3" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target DesignTimeRectangle="519, 431, 93, 13" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Select Date' parentid='datepick' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Select Date' parentid='datepick' tag='LABEL' type='' class='' check:innerText='Select Date' /&gt;" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="354,122" sap2010:WorkflowViewState.IdRef="Delay_6" />
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT name_id'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,250" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="f602918e-9102-4409-ae8b-5b5ffca472c4" Text="Muskan sayyad" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://clovedental.in/appointments/" CvElementArea="882, 306, 341, 41" CvType="InputBox" DesignTimeRectangle="884, 307, 338, 38" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='name_id' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='name_id' tag='INPUT' type='text' class='input_box' placeholder='Full Name*' aaname='' /&gt;" Guid="490d4ac3-8888-45af-b381-b0fe09331e7c" InformativeScreenshot="acda8ddb23313e24629104e619468f20.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Book Appointment with Best Dentist Near You - Clove Dental Appointment' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="354,122" sap2010:WorkflowViewState.IdRef="Delay_7" />
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT email_id'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,250" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="f602918e-9102-4409-ae8b-5b5ffca472c4" Text="muskansayyad11@gmail.com" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://clovedental.in/appointments/" CvElementArea="882, 354, 342, 40" CvType="InputBox" DesignTimeRectangle="884, 355, 338, 38" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='email_id' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='email_id' tag='INPUT' type='text' class='input_box right' placeholder='Email Id' aaname='' /&gt;" Guid="65d046c6-3d4d-4817-8e30-a76946aca512" InformativeScreenshot="0135eef7c7c194c92c40102b0fdac9a5.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Book Appointment with Best Dentist Near You - Clove Dental Appointment' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="354,122" sap2010:WorkflowViewState.IdRef="Delay_8" />
+                    <uix:NCheck Action="Check" DisplayName="Check/Uncheck 'checked'" sap:VirtualizedContainerService.HintSize="354,189" sap2010:WorkflowViewState.IdRef="NCheck_1" ScopeIdentifier="f602918e-9102-4409-ae8b-5b5ffca472c4" Version="V3">
+                      <uix:NCheck.Target>
+                        <uix:TargetAnchorable BrowserURL="https://clovedental.in/appointments/" CvElementArea="876, 426, 19, 19" CvType="CheckBox" DesignTimeRectangle="878, 426, 15, 20" DesignTimeScaleFactor="1" ElementType="CheckBox" FullSelectorArgument="&lt;webctrl id='disclaimer' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl id='disclaimer' tag='INPUT' type='checkbox' class='' aaname='I hereby consent to receive calls/messages from Clove Dental and its partners and override DND settings.' /&gt;" Guid="f15d7720-7fd9-485c-a97a-554e5e0702d6" InformativeScreenshot="13bfe00091caa332f6e426a00ac6c4af.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Book Appointment with Best Dentist Near You - Clove Dental Appointment' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="884, 428, 338, 32" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='frmshow' tag='LABEL' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='frmshow' tag='LABEL' type='' class='' aaname='I hereby consent to receive calls/messages from Clove Dental and its partners and override DND settings.' check:innerText='I hereby consent to receive calls/messages from Clove Dental and its partners and override DND' /&gt;" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NCheck.Target>
+                    </uix:NCheck>
+                    <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="354,122" sap2010:WorkflowViewState.IdRef="Delay_9" />
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit'" sap:VirtualizedContainerService.HintSize="354,189" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f602918e-9102-4409-ae8b-5b5ffca472c4" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://clovedental.in/appointments/" CvElementArea="999, 462, 108, 44" CvTextArea="1013, 476, 80, 19" CvTextArgument="SUBMIT" CvType="Button" DesignTimeRectangle="1000, 465, 106, 40" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' class='button' aaname='Submit' check:innerText='SUBMIT' /&gt;" Guid="1edfbef6-c283-435f-a970-61c1b9d1ddb8" InformativeScreenshot="c2ee82518ae7014cae7c3a0cf31f6717.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Book Appointment with Best Dentist Near You - Clove Dental Appointment' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="354,122" sap2010:WorkflowViewState.IdRef="Delay_10" />
+                    <uix:NGetText DisplayName="Get Text 'IMG'" sap:VirtualizedContainerService.HintSize="354,189" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="f602918e-9102-4409-ae8b-5b5ffca472c4" Version="V3">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="https://clovedental.in/thank-you" DesignTimeRectangle="134, 233, 1059, 144" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;webctrl src='https://clovedental.in/wp-content/uploads/2017/06/thank-you.jpg' tag='IMG' /&gt;" FuzzySelectorArgument="&lt;webctrl src='https://clovedental.in/wp-content/uploads/2017/06/thank-you.jpg' tag='IMG' type='' class='' aaname='' /&gt;" Guid="f99626d3-f515-4596-8869-adf72397d22e" InformativeScreenshot="ae7021b3e8c0642ed5312a38e76aa443.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='thank you - Clove Dental' /&gt;" SearchSteps="FuzzySelector" Version="V3" Visibility="Interactive" />
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="354,115" sap2010:WorkflowViewState.IdRef="Delay_11" />
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANPSURBVDhPNZNbaJt1GMaDMlaWZEma8/nQJM2hbdok5NQkX85pUgod7USoQ8EdUIdCLyxacIOhMHth2UW98aaijiHiLuaQCd5sCLsQnCDeeOMK081hpy04dezn+33Di//FH77/872/53leXSvqZjZopTbmkGNjMOFBCR2mHrBw/vRxrn96kaVGhZRVz/xMhGbkMHMJK52oEyXsQNeIOBlMhulMBlESLuphE924TRN4vl2CvV1uff0lc/k0eb+JfsJG0fG0CNhRf65rRex0Ej6m3XqUpJfZkIn5KR8Vj5FKwMqH774Df97n/bfXmXIdopN00IlZZFIfnXER6MZcgmBhmB/n+uVtvr36CRfWTtIIWSh6TfQySXhwT84dFmsZsq6D9CfcVPxGlMgoukHSQ16Ul5s52L8D/9zn0ntvyQR6ejJRIejkmy8+g0d7bKy/Si6gpzvhoiY+zYtfulrAQCNmY66Q4qOt81zZvsD68WXKvkM0ozayPgubZ9bg4S43v7pMPe2hOmZiLu2m6tcLQnyU4XSQTHCUmNtIwjFCPekSPjvDST9Zj5mzr52Syf5gd+dHasJeGbNwJB+RtAySQthIKSCGpfxUp6OUEhJr3E5DPuqMO8k49ZxeOQL/7vF4/1cUSasctWgIqpm63rjagVGUTISEz0wh7mTGp6cVs4oHbk3g9RMr4sE+D3+/LagJzQcVoR4UhHbUjCIeZCXOo4MaJ5a6PNvOMivetOMOCgEb51Zf1kz86bsbVES0mXqCqE2glkbNfrGe5fGDHfj7Hhc3zzJp1skUdma8Zj7YOKcJfL69RTYoTcx4yTsP0I5KjMOUROUxMCxK3rs/w193+XjjTQqOgyxMRyhHPNy+dVNL4Y2XniNlf4r+lEd6IBhJJzq1so2og5IgnFzq8Mpyh2OtGZSgWfph4FivIQns88ONa/RyMXLuEa1I/ZRHjLZKD/xmWnG5SGmKYStFMbAaNNIM26jJsnx/7SqP7u6w+sIzJK0HtMfqQql4SsSGrp8MUPZbKMnjttZvu7hr1LZtbWURfvuFS1ublGNP9mWYdlL1jtBWNzcdEoSQbJVMUBWEhkT4P1vZbWD16AJnTr1IxufQvFjIRbXydGNmBkkplM/Cfxfm3W9/a1jqAAAAAElFTkSuQmCC" InformativeScreenshot="50f5407935218b5eb753ccf64e172ced.jpg" Selector="&lt;html app='msedge.exe' title='Advanced Dental Health Plan DHP - Clove Dental' /&gt;" Title="Advanced Dental Health Plan DHP - Clove Dental" Url="https://clovedental.in/advanced-dental-health-plan-dhp?utm_source=google&amp;utm_medium=pmax&amp;utm_campaign=GD_ADHP_Sale8Sep&amp;gad_source=1&amp;gclid=Cj0KCQjw8J6wBhDXARIsAPo7QA_otJsMy2VJQcgvk--2HkKcwuSeBcn0wboaF20NkwAwmQzeAWNWl9kaAoUFEALw_wcB" />
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </ui:OpenBrowser.Body>
+    </ui:OpenBrowser>
+  </Sequence>
+</Activity>

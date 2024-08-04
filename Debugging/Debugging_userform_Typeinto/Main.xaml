@@ -1,0 +1,550 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:Annotation.AnnotationText="UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9" sap:VirtualizedContainerService.HintSize="934,1775" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.Excel.Model</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="608,1710" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Name="dt_item" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="546,65" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
+      <ueab:ExcelProcessScopeX.Body>
+        <ActivityAction x:TypeArguments="ui:IExcelProcess">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="602,654" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="540,569" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" WorkbookPath="UsersDetails.xlsx">
+              <ueab:ExcelApplicationCard.Body>
+                <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="506,277" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ueab:ReadRangeX DisplayName="Read Range" sap:VirtualizedContainerService.HintSize="444,192" sap2010:WorkflowViewState.IdRef="ReadRangeX_1" Range="[Excel.Sheet(&quot;Sheet1&quot;)]" SaveTo="[dt_item]" />
+                  </Sequence>
+                </ActivityAction>
+              </ueab:ExcelApplicationCard.Body>
+            </ueab:ExcelApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </ueab:ExcelProcessScopeX.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ueab:ExcelProcessScopeX>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Employee Information Form" sap:VirtualizedContainerService.HintSize="546,1509" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="a3c2bdb0-0cb8-4f86-9f34-24a8d28c14bc" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="512,1252" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_item]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="450,1165" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+              <ui:ForEachRow.Body>
+                <ActivityAction x:TypeArguments="sd:DataRow">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,976" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'First Name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,258" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="a3c2bdb0-0cb8-4f86-9f34-24a8d28c14bc" Text="[CurrentRow(&quot;First Name&quot;).ToString]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" CvElementArea="314, 391, 734, 37" CvType="InputBox" DesignTimeRectangle="316, 393, 730, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='' class='-ad-62' placeholder='Enter your answer' aaname='' /&gt;" Guid="92ecf437-2cad-4f56-b01b-3071fb679bd5" InformativeScreenshot="9223e2355d9df3789fd10ea1e915ae39.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target CvTextArea="314, 353, 86, 16" CvTextArgument="First Name:" CvType="Text" DesignTimeRectangle="315, 350, 85, 22" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='First Name:' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='First Name:' tag='SPAN' type='' class='text-format-content ' check:innerText='First Name:' /&gt;" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Last Name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,65" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="a3c2bdb0-0cb8-4f86-9f34-24a8d28c14bc" Text="[CurrentRow(&quot;Last Name&quot;).ToString]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" CvElementArea="314, 537, 733, 38" CvType="InputBox" DesignTimeRectangle="316, 539, 730, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-labelledby='QuestionId_rc6614962c0cb41659aac76f251ee632b QuestionInfo_rc6614*' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='QuestionId_rc6614962c0cb41659aac76f251ee632b QuestionInfo_rc6614*' tag='INPUT' type='' class='-ad-62' placeholder='Enter your answer' aaname='' /&gt;" Guid="0c0708ab-0537-4f8d-863e-e36423cdc768" InformativeScreenshot="6d6b17ab5f85aa5ec6e89204fa22a8cc.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target CvTextArea="314, 501, 85, 15" CvTextArgument="Last Name:" CvType="Text" DesignTimeRectangle="315, 497, 83, 22" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Last Name:' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Last Name:' tag='SPAN' type='' class='text-format-content ' check:innerText='Last Name:' /&gt;" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Email address'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,65" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="a3c2bdb0-0cb8-4f86-9f34-24a8d28c14bc" Text="[CurrentRow(&quot;Email&quot;).ToString]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" CvElementArea="314, 501, 733, 38" CvType="InputBox" DesignTimeRectangle="316, 504, 730, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-labelledby='QuestionId_r4231d7f07c3a4279bb0a02dec748a6a5 QuestionInfo_r4231d*' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='QuestionId_r4231d7f07c3a4279bb0a02dec748a6a5 QuestionInfo_r4231d*' tag='INPUT' type='' class='-ad-62' placeholder='Enter your answer' aaname='' /&gt;" Guid="9eed2ff7-4201-4042-bfe9-4d3cc22967ee" InformativeScreenshot="31d923e4c08d1253a5a8625165e74976.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target CvTextArea="314, 465, 108, 16" CvTextArgument="Email address:" CvType="Text" DesignTimeRectangle="315, 462, 106, 22" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Email address:' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Email address:' tag='SPAN' type='' class='text-format-content ' check:innerText='Email address:' /&gt;" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Mobile Phone Number'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,65" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="a3c2bdb0-0cb8-4f86-9f34-24a8d28c14bc" Text="[CurrentRow(&quot;Mobile Phone Number&quot;).ToString.Replace(&quot;-&quot;,&quot;&quot;)]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" CvElementArea="315, 466, 731, 38" CvType="InputBox" DesignTimeRectangle="316, 469, 730, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-labelledby='QuestionId_rf1bcd5b5bdc643be81c13e3d03a3945a QuestionInfo_rf1bcd*' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='QuestionId_rf1bcd5b5bdc643be81c13e3d03a3945a QuestionInfo_rf1bcd*' tag='INPUT' type='' class='-ad-62' placeholder='The value must be a number' aaname='' /&gt;" Guid="2c4f60d9-4695-4878-b510-71ca23beaf05" InformativeScreenshot="7e54154f8a1e131f8440dbfe38a134f6.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target CvTextArea="314, 430, 177, 16" CvTextArgument="Mobile Phone Number:" CvType="Text" DesignTimeRectangle="315, 427, 175, 22" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Mobile Phone Number:' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Mobile Phone Number:' tag='SPAN' type='' class='text-format-content ' check:innerText='Mobile Phone Number:' /&gt;" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'City, State, Zip'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,65" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="a3c2bdb0-0cb8-4f86-9f34-24a8d28c14bc" Text="[CurrentRow(&quot;City, State, Zip&quot;).ToString]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" CvElementArea="315, 521, 732, 38" CvType="InputBox" DesignTimeRectangle="316, 524, 730, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-labelledby='QuestionId_r290c282268224d6a8e18d3d7fc9d7f20 QuestionInfo_r290c2*' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='QuestionId_r290c282268224d6a8e18d3d7fc9d7f20 QuestionInfo_r290c2*' tag='INPUT' type='' class='-ad-62' placeholder='Enter your answer' aaname='' /&gt;" Guid="9d5a18ce-a462-4157-82cf-1308e3c45d67" InformativeScreenshot="ee2494cb02cfe94d4043b2ff3ffb0301.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target CvTextArea="314, 485, 112, 20" CvTextArgument="City, State, Zip:" CvType="Text" DesignTimeRectangle="315, 482, 110, 22" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='City, State, Zip:' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='City, State, Zip:' tag='SPAN' type='' class='text-format-content ' check:innerText='City, State, Zip:' /&gt;" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Birthday'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,65" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="a3c2bdb0-0cb8-4f86-9f34-24a8d28c14bc" Text="[CurrentRow(&quot;Birthday&quot;).ToString]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" CvElementArea="315, 576, 731, 38" CvType="InputBox" DesignTimeRectangle="316, 579, 730, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-labelledby='QuestionId_r9f78a5a6b8894040834da2cbce1baedd QuestionInfo_r9f78a*' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-labelledby='QuestionId_r9f78a5a6b8894040834da2cbce1baedd QuestionInfo_r9f78a*' tag='INPUT' type='' class='-ad-62' placeholder='Enter your answer' aaname='' /&gt;" Guid="7e777783-83b5-4159-94b9-d7861650d5f6" InformativeScreenshot="02ca3dc9ec716bb7b0b2fddbb3571dc2.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target CvTextArea="314, 540, 67, 20" CvTextArgument="Birthday:" CvType="Text" DesignTimeRectangle="315, 537, 66, 22" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Birthday:' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Birthday:' tag='SPAN' type='' class='text-format-content ' check:innerText='Birthday:' /&gt;" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NTypeInto>
+                    <ui:IfElseIf DisplayName="Else If civil Status" sap:VirtualizedContainerService.HintSize="354,65" sap2010:WorkflowViewState.IdRef="IfElseIf_1">
+                      <ui:IfElseIf.ConditionBlocks>
+                        <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
+                          <ui:IfElseIfBlock BlockType="If" Condition="[CurrentRow(&quot;Civil Status&quot;).ToString.Contains(&quot;Single&quot;)]" DisplayName="If else if block" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_1">
+                            <ui:IfElseIfBlock.Then>
+                              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,265" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Single'" sap:VirtualizedContainerService.HintSize="354,180" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a3c2bdb0-0cb8-4f86-9f34-24a8d28c14bc" Version="V3">
+                                  <uix:NClick.Target>
+                                    <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" CvElementArea="316, 635, 25, 25" CvType="RadioButton" DesignTimeRectangle="319, 275, 19, 19" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;webctrl parentid='question-list' tag='path' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='question-list' tag='path' type='' class='' aaname='' /&gt;" Guid="c15b236b-4dc0-487d-9195-f060a4b6675f" InformativeScreenshot="1d9b9bb76c0b230a958231fc44dbcb05.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                      <uix:TargetAnchorable.Anchors>
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                          <uix:Target CvTextArea="347, 277, 39, 16" CvTextArgument="Single" CvType="Text" DesignTimeRectangle="348, 272, 38, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl id='QuestionChoiceOption1' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='QuestionChoiceOption1' tag='SPAN' type='' class='text-format-content css-84' aaname='Single' check:innerText='Single' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                        </scg:List>
+                                      </uix:TargetAnchorable.Anchors>
+                                    </uix:TargetAnchorable>
+                                  </uix:NClick.Target>
+                                </uix:NClick>
+                              </Sequence>
+                            </ui:IfElseIfBlock.Then>
+                          </ui:IfElseIfBlock>
+                          <ui:IfElseIfBlock BlockType="ElseIf" Condition="[CurrentRow(&quot;Civil Status&quot;).ToString.Contains(&quot;Married&quot;)]" DisplayName="If else if block" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_2">
+                            <ui:IfElseIfBlock.Then>
+                              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,265" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Single'" sap:VirtualizedContainerService.HintSize="354,180" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a3c2bdb0-0cb8-4f86-9f34-24a8d28c14bc" Version="V3">
+                                  <uix:NClick.Target>
+                                    <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" CvElementArea="316, 321, 25, 25" CvType="RadioButton" DesignTimeRectangle="319, 324, 19, 19" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;webctrl idx='2' parentid='question-list' tag='path' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='question-list' tag='path' class='' aaname='' /&gt;" Guid="aee08fe1-ea09-4fb5-8bf8-f5ba89effec4" InformativeScreenshot="ebf59c2a8abd8f95d3fa426bccaf0db8.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                      <uix:TargetAnchorable.Anchors>
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                          <uix:Target CvTextArea="347, 326, 50, 13" CvTextArgument="Married" CvType="Text" DesignTimeRectangle="348, 321, 48, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl id='QuestionChoiceOption2' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='QuestionChoiceOption2' tag='SPAN' type='' class='text-format-content css-84' aaname='Married' check:innerText='Married' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                        </scg:List>
+                                      </uix:TargetAnchorable.Anchors>
+                                    </uix:TargetAnchorable>
+                                  </uix:NClick.Target>
+                                </uix:NClick>
+                              </Sequence>
+                            </ui:IfElseIfBlock.Then>
+                          </ui:IfElseIfBlock>
+                          <ui:IfElseIfBlock BlockType="ElseIf" Condition="[CurrentRow(&quot;Civil Status&quot;).ToString.Contains(&quot;Divorced&quot;)]" DisplayName="If else if block" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_3">
+                            <ui:IfElseIfBlock.Then>
+                              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,265" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Single'" sap:VirtualizedContainerService.HintSize="354,180" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a3c2bdb0-0cb8-4f86-9f34-24a8d28c14bc" Version="V3">
+                                  <uix:NClick.Target>
+                                    <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" CvElementArea="316, 370, 25, 25" CvType="RadioButton" DesignTimeRectangle="319, 373, 19, 19" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;webctrl idx='3' parentid='question-list' tag='path' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='question-list' tag='path' class='' aaname='' /&gt;" Guid="d6f4c482-b2ec-451d-bda4-71ff0c12f833" InformativeScreenshot="be23e11e698fe06646d0502124e6a3c5.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                      <uix:TargetAnchorable.Anchors>
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                          <uix:Target CvTextArea="347, 375, 56, 13" CvTextArgument="Divorced" CvType="Text" DesignTimeRectangle="348, 370, 55, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl id='QuestionChoiceOption3' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='QuestionChoiceOption3' tag='SPAN' type='' class='text-format-content css-84' aaname='Divorced' check:innerText='Divorced' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                        </scg:List>
+                                      </uix:TargetAnchorable.Anchors>
+                                    </uix:TargetAnchorable>
+                                  </uix:NClick.Target>
+                                </uix:NClick>
+                              </Sequence>
+                            </ui:IfElseIfBlock.Then>
+                          </ui:IfElseIfBlock>
+                          <ui:IfElseIfBlock BlockType="Else" DisplayName="If else if block" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_4">
+                            <ui:IfElseIfBlock.Then>
+                              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,265" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Single'" sap:VirtualizedContainerService.HintSize="354,180" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a3c2bdb0-0cb8-4f86-9f34-24a8d28c14bc" Version="V3">
+                                  <uix:NClick.Target>
+                                    <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" CvElementArea="315, 418, 25, 25" CvType="RadioButton" DesignTimeRectangle="319, 422, 19, 19" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;webctrl idx='4' parentid='question-list' tag='path' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='question-list' tag='path' class='' aaname='' /&gt;" Guid="c9d66bfa-d45d-4500-8be5-ee502aa6beb9" InformativeScreenshot="b8140ecd341f5b0dd5b3866c9c83fa77.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                      <uix:TargetAnchorable.Anchors>
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                          <uix:Target CvTextArea="346, 424, 61, 13" CvTextArgument="Widowed" CvType="Text" DesignTimeRectangle="348, 419, 59, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl id='QuestionChoiceOption4' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='QuestionChoiceOption4' tag='SPAN' type='' class='text-format-content css-84' aaname='Widowed' check:innerText='Widowed' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                        </scg:List>
+                                      </uix:TargetAnchorable.Anchors>
+                                    </uix:TargetAnchorable>
+                                  </uix:NClick.Target>
+                                </uix:NClick>
+                              </Sequence>
+                            </ui:IfElseIfBlock.Then>
+                          </ui:IfElseIfBlock>
+                        </sc:BindingList>
+                      </ui:IfElseIf.ConditionBlocks>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ui:IfElseIf>
+                    <If Condition="[CurrentRow(&quot;Driver's License&quot;).ToString.Contains(&quot;Yes&quot;)]" DisplayName="If driving licence" sap:VirtualizedContainerService.HintSize="354,65" sap2010:WorkflowViewState.IdRef="If_1">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <If.Then>
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,265" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Driver's license'" sap:VirtualizedContainerService.HintSize="354,180" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a3c2bdb0-0cb8-4f86-9f34-24a8d28c14bc" Version="V3">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" CvElementArea="316, 379, 25, 25" CvType="RadioButton" DesignTimeRectangle="319, 563, 19, 19" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;webctrl idx='5' parentid='question-list' tag='path' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='question-list' tag='path' class='' aaname='' /&gt;" Guid="3e366aba-9df7-4195-af27-b8d74c7d3f91" InformativeScreenshot="58e43a67b9caba7f95759e2a999c9cde.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                    <uix:Target CvTextArea="346, 565, 22, 13" CvTextArgument="Yes" CvType="Text" DesignTimeRectangle="348, 560, 20, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl id='QuestionChoiceOption5' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='QuestionChoiceOption5' tag='SPAN' type='' class='text-format-content css-84' aaname='Yes' check:innerText='Yes' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,265" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Driver's license'" sap:VirtualizedContainerService.HintSize="354,180" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a3c2bdb0-0cb8-4f86-9f34-24a8d28c14bc" Version="V3">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" CvElementArea="315, 609, 25, 25" CvType="RadioButton" DesignTimeRectangle="319, 612, 19, 19" DesignTimeScaleFactor="1" ElementType="Icon" FullSelectorArgument="&lt;webctrl idx='6' parentid='question-list' tag='path' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='question-list' tag='path' class='' aaname='' /&gt;" Guid="f59f7171-e421-4f31-b97b-04abfd27aae3" InformativeScreenshot="5e60211772f9f9eba9dca6cb4ffea16a.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                    <uix:Target CvTextArea="347, 614, 20, 13" CvTextArgument="No" CvType="Text" DesignTimeRectangle="348, 609, 19, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl id='QuestionChoiceOption6' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl id='QuestionChoiceOption6' tag='SPAN' type='' class='text-format-content css-84' aaname='No' check:innerText='No' /&gt;" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Monthly Salary" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,65" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="a3c2bdb0-0cb8-4f86-9f34-24a8d28c14bc" Text="[CurrentRow(&quot;Monthly Salary&quot;).ToString.Replace(&quot;$&quot;,&quot;&quot;)]" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" CvElementArea="313, 567, 734, 38" CvType="InputBox" DesignTimeRectangle="316, 569, 730, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-label='Single line text' aria-labelledby='QuestionId_re0b4a177340347a89ae6989631afaabf QuestionInfo_re0b4a*' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl aria-label='Single line text' aria-labelledby='QuestionId_re0b4a177340347a89ae6989631afaabf QuestionInfo_re0b4a*' tag='INPUT' type='' class='-ad-62' placeholder='The value must be a number' aaname='' /&gt;" Guid="f70802e9-5f32-4f23-bc8e-9dfdd08a3c45" InformativeScreenshot="42128de28663ebaaa07689c321ece026.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NTypeInto>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit'" sap:VirtualizedContainerService.HintSize="354,65" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a3c2bdb0-0cb8-4f86-9f34-24a8d28c14bc" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" CvElementArea="295, 657, 89, 43" CvTextArea="315, 671, 49, 13" CvTextArgument="Submit" CvType="Button" DesignTimeRectangle="296, 658, 87, 40" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl class='css-192' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl class='css-192' tag='BUTTON' type='' aaname='Submit' check:innerText='Submit' /&gt;" Guid="6634730c-bae6-44d8-805f-92384dc65ecb" InformativeScreenshot="9753523b82ce489e9bfcc44108a0faab.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit another response'" sap:VirtualizedContainerService.HintSize="354,48" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a3c2bdb0-0cb8-4f86-9f34-24a8d28c14bc" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" CvTextArea="585, 450, 157, 16" CvTextArgument="Submit another response" CvType="Text" DesignTimeRectangle="586, 447, 155, 19" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Submit another response' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Submit another response' tag='SPAN' type='' class='' check:innerText='Submit another response' /&gt;" Guid="06ab0516-5802-41bf-a938-a9506bc261a6" InformativeScreenshot="866cb2ab16d4f05732ff39c7b163f896.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target CvTextArea="527, 380, 272, 18" CvTextArgument="Your response was submitted." CvType="Text" DesignTimeRectangle="529, 375, 269, 28" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Your response was submitted.' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Your response was submitted.' tag='SPAN' type='' class='text-format-content ' check:innerText='Your response was submitted.' /&gt;" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NClick>
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEachRow.Body>
+            </ui:ForEachRow>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1382, 744" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY4AB82MXBID4PRD/JwG/h2qHG4BN0X/Tw2f/Ky5b+19q9kIwBrFBYiA5qHYIQNcIwyAN/C2d/5lzCsAYxAaJgeQYmJvb3wPxf3yYpRWhGYZBLjE+eApsAFZN6JjR0gbDAJgL4IoOPHj4Hxk4LVoKl2N3coFrRvcCigGNBw/D+chYMDgMeyAiKwIZADME3SDp5AywBnSMYcCDDx/gBiHLMZpZoIQBDBPtBYoN4PUNgIcBCGM1AB/GZwDBhMRc14TbAGQA8icuLFJSSdgAmCApGKoVAoAC79EV4McF7wGS5hcjN4jnVwAAAABJRU5ErkJggg==" InformativeScreenshot="58d7514fc04043995decef6a28f38430.jpg" Selector="&lt;html app='msedge.exe' title='Employee Information Form' /&gt;" Title="Employee Information Form" Url="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" />
+      </uix:NApplicationCard.TargetApp>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </uix:NApplicationCard>
+    <ui:CommentOut DisplayName="Test Activity" sap:VirtualizedContainerService.HintSize="546,48" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="512,133" sap2010:WorkflowViewState.IdRef="Sequence_14">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Sequence DisplayName="Sequence test activity" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="Sequence_12">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Employee Information Form" sap:VirtualizedContainerService.HintSize="450,570" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="5aa34d8f-fad3-4d56-9cfc-247de7d52dfa" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,330" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'First Name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,243" sap2010:WorkflowViewState.IdRef="NTypeInto_8" ScopeIdentifier="5aa34d8f-fad3-4d56-9cfc-247de7d52dfa" Text="hello" Version="V3">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" CvElementArea="314, 391, 734, 37" CvType="InputBox" DesignTimeRectangle="316, 393, 730, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='' class='-ad-62' placeholder='Enter your answer' aaname='' /&gt;" Guid="92ecf437-2cad-4f56-b01b-3071fb679bd5" InformativeScreenshot="3e8f3f016f561096d4d66760db40d6ef.png" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Employee Information Form' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target CvTextArea="314, 353, 86, 16" CvTextArgument="First Name:" CvType="Text" DesignTimeRectangle="315, 350, 85, 22" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='First Name:' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='First Name:' tag='SPAN' type='' class='text-format-content ' check:innerText='First Name:' /&gt;" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NTypeInto>
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="-8, -8, 1382, 744" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY4AB82MXBID4PRD/JwG/h2qHG4BN0X/Tw2f/Ky5b+19q9kIwBrFBYiA5qHYIQNcIwyAN/C2d/5lzCsAYxAaJgeQYmJvb3wPxf3yYpRWhGYZBLjE+eApsAFZN6JjR0gbDAJgL4IoOPHj4Hxk4LVoKl2N3coFrRvcCigGNBw/D+chYMDgMeyAiKwIZADME3SDp5AywBnSMYcCDDx/gBiHLMZpZoIQBDBPtBYoN4PUNgIcBCGM1AB/GZwDBhMRc14TbAGQA8icuLFJSSdgAmCApGKoVAoAC79EV4McF7wGS5hcjN4jnVwAAAABJRU5ErkJggg==" InformativeScreenshot="58d7514fc04043995decef6a28f38430.jpg" Selector="&lt;html app='msedge.exe' title='Employee Information Form' /&gt;" Title="Employee Information Form" Url="https://forms.office.com/Pages/ResponsePage.aspx?id=Kj012FOxF02IJ5AsUfcjV6dYx_Rv13RDp5b_n_KH_8dUOEhJTFJUOEYwT0pOT1VGWjVFVUVUNjk2Ty4u" />
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+          </Sequence>
+        </Sequence>
+      </ui:CommentOut.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:CommentOut>
+  </Sequence>
+</Activity>

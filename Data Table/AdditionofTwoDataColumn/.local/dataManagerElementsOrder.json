@@ -1,0 +1,39 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "addition_using_modern_activities.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ValueC&Sequence_1",
+        "ValueB&Sequence_1",
+        "ExcelRowIndex&Sequence_1",
+        "ValueA&Sequence_1",
+        "dt_InputTable&Sequence_1",
+        "CurrentRowIndex&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ValueB&Sequence_3",
+        "ValueA&Sequence_3",
+        "dt_inputdata&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

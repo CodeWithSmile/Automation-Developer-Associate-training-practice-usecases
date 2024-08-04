@@ -1,0 +1,148 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "docData&Sequence_31",
+        "getfiles&Sequence_9",
+        "EmpMail&Sequence_1",
+        "EmpId&Sequence_1",
+        "IfscCode&Sequence_1",
+        "AccountNumber&Sequence_1",
+        "Bank&Sequence_1",
+        "PanCard&Sequence_1",
+        "Mobile&Sequence_1",
+        "Gender&Sequence_1",
+        "LastName&Sequence_1",
+        "FirstName&Sequence_1",
+        "ctc&Sequence_1",
+        "Location&Sequence_1",
+        "doj&Sequence_1",
+        "Readpdf&Sequence_1",
+        "getdocpath&Sequence_1",
+        "getpdfpath&Sequence_1",
+        "designation&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "temp.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "temp1.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "index_1&Sequence_1",
+        "index&Sequence_1",
+        "mul&Sequence_1",
+        "num1&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence1.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence2.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "country&Sequence_2",
+        "clientName&Sequence_2",
+        "clientid&Sequence_2",
+        "name&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "temp2.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "empmail&Sequence_3",
+        "empid&Sequence_3",
+        "Readpdf&Sequence_1",
+        "ctc&Sequence_1",
+        "Location&Sequence_1",
+        "designation&Sequence_1",
+        "doj&Sequence_1",
+        "AccountNumber&Sequence_1",
+        "IfscCode&Sequence_1",
+        "Bank&Sequence_1",
+        "PanCard&Sequence_1",
+        "Mobile&Sequence_1",
+        "Gender&Sequence_1",
+        "LastName&Sequence_1",
+        "FirstName&Sequence_1",
+        "docFile&Sequence_1",
+        "pdfFile&Sequence_1",
+        "GetDocFiles&Sequence_1",
+        "GetPdfFiles&Sequence_1",
+        "GetAllFiles&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "pdf.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence3.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "num2&Sequence_1",
+        "num1&Sequence_1",
+        "add&Sequence_1",
+        "addition&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Sequence4.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
